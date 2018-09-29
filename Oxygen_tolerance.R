@@ -27,7 +27,7 @@ mm.list <- NULL
 # Retrieve only needed information (Species name and oxygen tolerance status)
 for(i in 1:length(m.list)){
   if(m.list[i]=="\n                        "){
-# Everything is calculated based on where "\n" is identified in the list
+  # Everything is calculated based on where "\n" is identified in the list
     if(grepl("e.g. Escherichia coli", m.list[i+4])==T){
       mm.list <- rbind(mm.list, matrix(m.list[(i+4):(i+5)], ncol=2, byrow = T))
     }
