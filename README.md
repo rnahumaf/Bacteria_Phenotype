@@ -8,5 +8,5 @@ The other script was used to retrieve information using a web scraping technique
 A merged file was generated using Excel (manual styling), with a list of about 7k bacteria with gram-staining or oxygen tolerance information.
 
 All_bacteria.csv 	- List of all bacteria retrieved with information about gram-staining or oxygen tolerance
-	Gram_staining.R     - API Script used to retrieve bacteria with gram-staining information
-  Oxygen_tolerance.R 	- Web scraping Script used to retrieve bacteria with oxygen tolerance information
+Gram_staining.R     	- API Script used to retrieve bacteria with gram-staining information
+Oxygen_tolerance.R 	- Web scraping Script used to retrieve bacteria with oxygen tolerance information
